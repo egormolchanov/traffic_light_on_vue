@@ -8,9 +8,6 @@
 
 export default {
   name: 'app',
-  mounted() {
-    if (window.location.pathname == '/')  this.$router.push('red')
-  }
 }
 </script>
 

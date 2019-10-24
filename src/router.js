@@ -17,6 +17,11 @@ export default new VueRouter({
             path: '/yellow',
             component: Yellow
         },
+        {
+            path: '/',
+            redirect: '/red',
+            component: Red
+        }
     ],
     mode: 'history'
 })

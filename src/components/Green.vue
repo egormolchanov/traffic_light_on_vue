@@ -33,18 +33,19 @@ export default {
 
 <style scoped>
 
+  .block div {
+    height: 33.33vh;
+  }
+
   .block div:nth-child(1) {
-      height: 33.33vh;
       background: rgba(255, 0, 0, .5);
   }
 
   .block div:nth-child(2) {
-      height: 33.33vh;
       background: rgba(238, 255, 0, .5);
   }
 
   .block div:nth-child(3) {
-      height: 33.33vh;
       background: rgba(24, 141, 0, 1);
   }
 </style>
