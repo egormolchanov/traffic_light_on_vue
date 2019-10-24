@@ -13,7 +13,7 @@ export default {
 
   data() {
     return {
-      time: localStorage.getItem('countdowntime') || 5
+      time: localStorage.getItem('countdowntime') || 15
     }
   },
 
